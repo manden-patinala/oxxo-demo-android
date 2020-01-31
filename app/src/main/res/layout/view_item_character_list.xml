@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/view_item_character_list_margin"
+    android:background="@drawable/ui_bg_view_item_character_list">
+
+    <ImageView
+        android:id="@+id/character_list_image"
+        android:layout_weight="0.4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/character_list_name"
+        android:layout_weight="0.6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:padding="@dimen/view_item_character_list_name_padding"
+        style="@style/TextViewListBoldBlack"
+        android:visibility="visible"
+        android:text="Super Hero Name"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="view_item_character_list_margin">10dp</dimen>
+    <dimen name="view_item_character_list_name_padding">6dp</dimen>
+
+    <dimen name="view_character_summary_padding">10dp</dimen>
+
+</resources>

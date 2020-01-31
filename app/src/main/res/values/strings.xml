@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">OxxoDemo</string>
+    <string name="app_name">Oxxo Demo</string>
+
+    <string name="title_character_list">HEROES OF MARVEL</string>
+
+    <string name="character_summary_comics">COMICS</string>
 </resources>
